@@ -8,11 +8,17 @@ Agents file explanation
 
 Tasks file explanation
 1st column - Task's index
+
 2nd column - The number of agents required for the task
+
 3rd column - Task's required equipment
+
 4st column - 1 if the task is virtual (no location), 0 if it is physical
+
 5th column - Precedence relations, the index of the task from the 1st column precedes the task that is here
+
 6th column - Task duration
+
 7th column - List of tasks that can run in parallel
 
 Keep in mind that it works both ways, although it is not explicitly stated here. For example, if task 3 can run in parallel with task 7, that means that task 7 can run in parallel with task 3 even though in 7th column of task 7 there might not be task 3. 
