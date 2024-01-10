@@ -3,10 +3,13 @@
 To successfully use a test instance, you need to use three matching files (tasks,agents,weights). For example tasks_2_8.txt, agents_2_8.txt, and weights_2_8.txt are one instance.
 
 Agents file explanation
+
 1st column - Agent's index
+
 2nd column - Agent's equipment
 
 Tasks file explanation
+
 1st column - Task's index
 
 2nd column - The number of agents required for the task
