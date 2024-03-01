@@ -1,4 +1,4 @@
-# ijcai2024
+# ECAI2024
 
 To successfully use a test instance, you need to use three matching files (tasks,agents,weights). For example tasks_2_8.txt, agents_2_8.txt, and weights_2_8.txt are one instance.
 
